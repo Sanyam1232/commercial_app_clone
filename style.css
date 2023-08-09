@@ -1,0 +1,483 @@
+
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+header {
+    position: fixed;
+    top: 0;
+    background: white;
+    height: 60px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width:100%;
+    padding-bottom: 10px;
+}
+
+.left img{
+    width: 50px;
+    height: 38px;
+    padding-left:20px;
+    padding-bottom: 10px;
+}
+
+.container {
+    padding:0 135px;
+    /* margin: 13px 0px; */
+    height: 76px;
+    width:100%;
+}
+nav {
+    font-size: 14px;
+    font-weight: 12px;
+    padding-top: 14px;
+}
+
+
+.left ul li {
+    list-style: none;
+    padding: 0 12px;
+    border:none;
+    height:28px;
+}
+  .Men:hover {
+    border-bottom:4px solid red ;
+   }
+   .Women:hover {
+    border-bottom: 4px solid pink;
+   }
+   .Kids:hover {
+    border-bottom: 4px solid orange;
+   }
+   .Home_living:hover {
+    border-bottom: 4px solid goldenrod;
+   }
+   .Beauty:hover {
+    border-bottom: 4px solid lightseagreen;
+   }
+   .Studio:hover {
+    border-bottom: 4px solid skyblue;
+   }
+.left sup {
+    font-size:8px;
+    text-transform: lowercase;
+    border: none;
+}
+.left a {
+    text-decoration: none;
+    color:black;
+}
+.humsbuger-bar {
+    display:none;
+}
+.middle {
+    padding-bottom:14px;
+}
+.right{
+    padding-right:64px;
+}
+ 
+
+
+.section1 {
+    background: #e1dbe6;
+    /* height: 122vh; */
+    padding: 0;
+}
+
+.search-bar-wrapper {
+    display:flex;
+    align-items:center;
+    position:relative;
+}
+.search {
+    width: 320px;
+    padding: 7px 17px;
+    border: 1px solid rgb(220, 219, 226);
+    background: #f2f4fc;
+}
+.search-bar-wrapper i {
+    position:absolute;
+    left:2px;
+    color:black;
+}
+.profile i {
+    background: none;
+    padding-left:16px;
+    color:#9e9a9a;
+}
+.wishlist i {
+    background: none;
+    padding-left:16px;
+    color:#9e9a9a;
+}
+.bag i {
+    background: none;
+    padding-left:8px;
+    color:#9e9a9a;
+}
+.sub_section h2{
+    font-size: 32px;
+    color: #474747;
+    padding-top:16px;
+    padding-bottom:16px;
+    text-align: center;;
+
+}
+.homeImg1 {
+    padding-top:100px;
+    width:100%;
+    margin: 0;
+    height:400px;
+  }
+  .homeImg2 {
+    margin-top: 48px;
+    height:150px;
+    width:100%;
+  }
+.brandimg {
+    width:100%;
+    align-content: center;
+}
+
+footer {
+    margin: 12px 0;
+    padding: 20px;
+    text-align: center;
+    /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.topbar-wrapper {
+    width:1134px;
+    height:446px;
+    padding-left:92px;
+    padding-top: 0;
+    visibility: hidden;
+    opacity:0;
+    
+   }
+   .topbar-wrapper-display {
+    visibility: visible;
+    opacity: 1;
+
+   }
+   .menbar {
+    visibility: hidden;
+    opacity:0;
+    height:0; 
+   }
+   .menbar-display {
+    visibility: visible;
+    opacity:1;
+    height: 100%;
+   }
+ .womenbar {
+    visibility: hidden;
+    opacity: 0;
+    height: 0;
+ }
+ .womenbar-display {
+    visibility: visible;
+    opacity: 1;
+    height: 100%;
+     }
+     
+     .kidsbar {
+        visibility: hidden;
+        opacity: 0;
+        height: 0;
+     }
+     .kidsbar-display {
+        visibility: visible;
+        opacity: 1;
+        height: 100%;
+         }
+     
+         .homebar {
+            visibility: hidden;
+            opacity: 0;
+            height: 0;
+         }
+         .homebar-display {
+            visibility: visible;
+            opacity: 1;
+            height: 100%;
+             }
+     
+             .beautybar {
+                visibility: hidden;
+                opacity: 0;
+                height: 0;
+             }
+             .beautybar-display {
+                visibility: visible;
+                opacity: 1;
+                height: 100%;
+                 }
+     
+                 .profilebar {
+                    visibility: hidden;
+                    opacity: 0;
+                    height: 0;
+                    width:256px;
+                    background-color:#fff;
+                    border-radius:1px solid grey;
+                    margin-left:878px;
+                    margin-top:24px;
+                     font-size: 12px;
+                    
+                 }
+                 .profilebar-display {
+                    visibility: visible;
+                    opacity: 1;
+                    height: 100%;
+                     }
+                     .profilebar b {
+                        font-size:14px;
+                        padding-left:12px;
+                        margin-top: 16px;
+                     }
+                     .profilebar p {
+                        padding-left:12px;
+                        margin-top:4px;
+                     }
+                     .profilebar button {
+                        margin-left:16px;
+                        margin-bottom:12px;
+                        width:176px;
+                        height:32px;
+                        text-transform: uppercase;
+                        color:deeppink;
+                        font-weight: 600;
+                        border: 1px solid deeppink;
+                        background-color:#f2f4fc;
+                    }
+                     .profile_ul {
+                        list-style: none;
+                        margin:8px;
+                        padding-top: 4px;
+                        font-size: 14px;
+                        background-color: #fff;
+                     }
+                     .profile_ul li {
+                        margin-top: 8px;
+                     }
+                    .profile_ul i {
+                        margin-left:4px;
+                        color:deeppink;
+                        font-size: 10px;
+                    } 
+                    .profilebar hr {
+                        width:128px;
+                        opacity: 0.5;
+                        padding-left:64px;
+                    }
+                     
+                    .sidebar-wrapper {
+                        height:100vh;
+                        background-color:#fff;
+                        width:80%;
+                        visibility: hidden; 
+                        opacity:0;
+                       }
+                       .sidebar {
+                        right: border 0.2em solid grey;
+                        visibility: hidden;
+                        opacity:0;
+                       }
+                       .sidebar img {
+                        width:256px;
+                        height:120px;
+                        padding-top:0;
+                       }
+                       .first {
+                        list-style-type: none;
+                        font-size: 14px;
+                        font-weight: bold;
+                        padding-top: 4px;
+                       }
+                       .first li {
+                        margin-top:8px;
+                        border: none;
+                        padding-bottom: 4px;
+                       }
+                       .first i {
+                        padding-left:88%;
+                        padding-bottom: 8px;
+                       }
+                       .second {
+                        list-style-type: none;
+                        font-size: 14px;
+                        padding-top: 4px;
+                       }
+                       .sidebar hr {
+                        width:60%;
+                        color:#9e9a9a;
+                       }
+                       .second li {
+                        margin-top: 12px;
+                       }
+                      .footer {
+                        background-color: grey;
+                      }
+                       /*  mobile responisve width:320px;  */
+                       @media all and (width:320px)
+                       {
+                        header {
+                            width:320px;
+                            position: fixed;
+                        }
+                        nav {
+                            font-size: 12px;
+                            }
+                            .humsbuger-bar {
+                                display: flex;
+                                padding-left: 4px;
+                               }
+                            .left img {
+                                width:48px;
+                                height:32px;
+                            }
+                            .left ul ,li {
+                                display: none;
+                            }
+                            .middle {
+                                padding-left:68px;
+                            }
+                            .search {
+                                visibility: hidden;
+                                opacity: 0;
+                              }
+                              .search-display
+                              {
+                                visibility: visible;
+                                opacity: 1;
+                              }
+                              .search-bar-wrapper {
+                                width:16px;
+                              }
+                              .right {
+                                padding-left:0;
+                                width:150px;
+                              }
+                              .profile {
+                                visibility: hidden;
+                                width:18px;
+                              }
+                            .profile i {
+                                visibility: visible;
+                                padding-top:10px;
+                            }
+                            .wishlist {
+                                visibility: hidden;
+                                width:18px;
+                              }
+                            .wishlist i {
+                                visibility: visible;
+                                padding-top:10px;
+                            }
+                            .bag {
+                                visibility: hidden;
+                                width:18px;
+                              }
+                            .bag i {
+                                visibility: visible;
+                                padding-top:10px;
+                            }
+                            .container {
+                                width:320px;
+                                padding: 0;
+                                margin:0;
+                               }
+                               .sub_section h2{
+                                font-size: 12px;
+                                color: #474747;
+                                padding-top:8px;
+                                padding-bottom:8px;
+                                text-align: center;
+                               }
+                               .homeImg1 {
+                                padding-top:100px;
+                                width:100%;
+                                margin: 0;
+                                height:156px;
+                              }
+                              .homeImg2 {
+                                margin-top: 32px;
+                                height:50px;
+                                width:100%;
+                                            }
+              }
+              @media all and (width:768px)
+              {
+                header {
+                    width:768px;
+                    position: fixed;
+                }
+                nav {
+                    font-size: 12px;
+                    }
+                    .left img {
+                        width:48px;
+                        height:36px;
+                     }
+                     .left ul {
+                        padding-left: 8px;
+                        width:340px;
+                     }
+                     .left li {
+                        font-size: 10px;
+                         text-align: left;
+                     }
+                     .search-bar-wrapper {
+                        display:flex;
+                        align-items:center;
+                        position:relative;
+                    }
+                    .search {
+                        width: 20px;
+                        visibility: hidden;
+                        opacity: 0;
+                    }
+                    .search-bar-wrapper i {
+                        position:absolute;
+                        left:16px;
+                        color:black;
+                    }
+                    .right {
+                        padding-top: 8px;
+                    }
+                    .container {
+                        width:768px;
+                        padding: 0;
+                        margin: 0;
+                    }
+                    .sub_section h2{
+                        font-size: 18px;
+                        color: #474747;
+                        padding-top:12px;
+                        padding-bottom:12px;
+                        text-align: center;
+                       }
+                       .homeImg1 {
+                        padding-top:100px;
+                        width:100%;
+                        margin: 0;
+                        height:256px;
+                      }
+                      .homeImg2 {
+                        margin-top: 32px;
+                        height:100px;
+                        width:100%;
+                      }
+                      .topbar-wrapper-display {
+                        display: none;
+                       }
+                       
+                       
+              }
