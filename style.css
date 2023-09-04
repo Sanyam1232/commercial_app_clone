@@ -79,7 +79,7 @@ nav {
     padding-bottom:14px;
 }
 .right{
-    padding-right:64px;
+    float: right;
 }
  
 
@@ -325,11 +325,76 @@ footer {
                       .footer {
                         background-color: grey;
                       }
+
+                      @media all and (max-width:768px)
+                      {
+                        header {
+                            width:auto;
+                            position: fixed;
+                        }
+                        nav {
+                            font-size: 12px;
+                            }
+                            .left img {
+                                width:48px;
+                                height:36px;
+                             }
+                             .left ul {
+                                padding-left: 8px;
+                                width:auto;
+                             }
+                             .left li {
+                                 text-align: left;
+                             }
+                             .search-bar-wrapper {
+                                justify-content: center;
+                                align-items:center;
+                                position:relative;
+                            }
+                            .search {
+                                width:20px;
+                                visibility: hidden;
+                                opacity: 0;
+                            }
+                            .search-bar-wrapper i {
+                                position:absolute;
+                                left:16px;
+                                color:black;
+                            }
+                            .right {
+                                padding-top: 8px;
+                            }
+                            .container {
+                                width:auto;
+                                padding: 0;
+                                margin: 0;
+                            }
+                            .sub_section h2{
+                                font-size: 18px;
+                                color: #474747;
+                                padding: 12px 0;
+                                text-align: center;
+                               }
+                               .homeImg1 {
+                                padding-top:100px;
+                                width:100%;
+                                margin: 0;
+                                height:256px;
+                              }
+                              .homeImg2 {
+                                margin-top: 32px;
+                                height:100px;
+                                width:100%;
+                              }
+                              .topbar-wrapper-display {
+                                display: none;
+                               }           
+                      }
                        /*  mobile responisve width:320px;  */
-                       @media all and (width:320px)
+                       @media all and (max-width:600px)
                        {
                         header {
-                            width:320px;
+                            width:100%;
                             position: fixed;
                         }
                         nav {
@@ -337,34 +402,19 @@ footer {
                             }
                             .humsbuger-bar {
                                 display: flex;
-                                padding-left: 4px;
+                                padding-left: 18px;
                                }
                             .left img {
                                 width:48px;
                                 height:32px;
                             }
-                            .left ul ,li {
-                                display: none;
+                            .left ul,li{
+                               display:none;  
                             }
-                            .middle {
-                                padding-left:68px;
+                            .search-bar-wrapper i{
+                                left:100px;
                             }
-                            .search {
-                                visibility: hidden;
-                                opacity: 0;
-                              }
-                              .search-display
-                              {
-                                visibility: visible;
-                                opacity: 1;
-                              }
-                              .search-bar-wrapper {
-                                width:16px;
-                              }
-                              .right {
-                                padding-left:0;
-                                width:150px;
-                              }
+                           
                               .profile {
                                 visibility: hidden;
                                 width:18px;
@@ -390,12 +440,12 @@ footer {
                                 padding-top:10px;
                             }
                             .container {
-                                width:320px;
+                                width:auto;
                                 padding: 0;
                                 margin:0;
                                }
                                .sub_section h2{
-                                font-size: 12px;
+                                font-size: 16px;
                                 color: #474747;
                                 padding-top:8px;
                                 padding-bottom:8px;
@@ -403,81 +453,12 @@ footer {
                                }
                                .homeImg1 {
                                 padding-top:100px;
-                                width:100%;
                                 margin: 0;
-                                height:156px;
+                                height:200px;
                               }
                               .homeImg2 {
                                 margin-top: 32px;
                                 height:50px;
-                                width:100%;
                                             }
               }
-              @media all and (width:768px)
-              {
-                header {
-                    width:768px;
-                    position: fixed;
-                }
-                nav {
-                    font-size: 12px;
-                    }
-                    .left img {
-                        width:48px;
-                        height:36px;
-                     }
-                     .left ul {
-                        padding-left: 8px;
-                        width:340px;
-                     }
-                     .left li {
-                        font-size: 10px;
-                         text-align: left;
-                     }
-                     .search-bar-wrapper {
-                        display:flex;
-                        align-items:center;
-                        position:relative;
-                    }
-                    .search {
-                        width: 20px;
-                        visibility: hidden;
-                        opacity: 0;
-                    }
-                    .search-bar-wrapper i {
-                        position:absolute;
-                        left:16px;
-                        color:black;
-                    }
-                    .right {
-                        padding-top: 8px;
-                    }
-                    .container {
-                        width:768px;
-                        padding: 0;
-                        margin: 0;
-                    }
-                    .sub_section h2{
-                        font-size: 18px;
-                        color: #474747;
-                        padding-top:12px;
-                        padding-bottom:12px;
-                        text-align: center;
-                       }
-                       .homeImg1 {
-                        padding-top:100px;
-                        width:100%;
-                        margin: 0;
-                        height:256px;
-                      }
-                      .homeImg2 {
-                        margin-top: 32px;
-                        height:100px;
-                        width:100%;
-                      }
-                      .topbar-wrapper-display {
-                        display: none;
-                       }
-                       
-                       
-              }
+             
